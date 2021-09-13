@@ -13,8 +13,8 @@ function App() {
       <Navbar></Navbar>
       <Switch>
         <Route exact path="/">{ user ?<Home /> : <Register />}</Route>
-        <Route path="/register">{ user ?<Home /> : <Register />}</Route>
-        <Route path="/login">{ user ?<Home /> : <Login />}</Route>
+        <Route path="/register">{ user ?<Register /> : <Register />}</Route>
+        <Route path="/login">{ user ?<Login/> : <Login />}</Route>
         <Route path="/viewcourse">{ user ?<Viewcourse /> : <Register />}</Route>
         <Route path="/create">{ user ?<Create /> : <Register />}</Route>
       </Switch>
