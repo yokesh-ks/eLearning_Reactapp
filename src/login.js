@@ -3,7 +3,7 @@ import loginbg from './images/loginbg.jpg';
 
 function Login(){
     return(
-        <div class="login">
+        <div class="form">
             <form>
                 <h1>form</h1>
                 <label>Email</label>
