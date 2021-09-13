@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
-          <CloseMenu className="menu-icon" />
+          <CloseMenu className="menu-icon-x" />
         ) : (
           <MenuIcon className="menu-icon" />
         )}
