@@ -19,26 +19,12 @@ body{
 
 /* Navbar starts */
 
-.navbar{
-    width: 100%;
-    height: 50px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
-    background-color: white;
-    padding: 10px 24px;
-    cursor: pointer;
-    box-shadow: 0 0 15px 0 rgb(2 59 109 / 10%);
-}
-.navbar .navbar-left{
+.navbar-left{
     font-size: 24px;
     color: #3DB2FF;
 }
 
-.navbar .navbar-right{
+.navbar-right{
     margin: 0;
     display: flex;
     list-style: none;
@@ -51,12 +37,12 @@ body{
     display: none;
   }
 
-.navbar .navbar-right li{
+.navbar-right li{
     padding-left: 20px;
     font-size: 18px;
 }
 
-.navbar .navbar-right li:hover{
+.navbar-right li:hover{
     color: #3DB2FF;
 }
 
