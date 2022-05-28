@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-import './css/style.css';
+import '../css/style.css';
 
 export function View(){
     return(

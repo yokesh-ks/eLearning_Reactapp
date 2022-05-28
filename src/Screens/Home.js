@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from './Components/hero';
-import Navbar from './Components/navbar';
+import Hero from '../Components/hero';
+import Navbar from '../Components/navbar';
 
 function Home() {
     return (

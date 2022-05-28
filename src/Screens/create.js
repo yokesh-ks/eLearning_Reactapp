@@ -1,5 +1,5 @@
 import Youtube from './youtube';
-import './css/style.css';
+import '../css/style.css';
 
 function Create(){
  return(

@@ -1,5 +1,5 @@
 import View from './view';
-import './css/style.css';
+import '../css/style.css';
 
 function Viewcourse() {
     return(

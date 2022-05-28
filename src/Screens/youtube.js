@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import './css/style.css';
+import '../css/style.css';
 
 function Youtube(){
     const [youtubeVideo, setYoutubeVideo] = useState('');

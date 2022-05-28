@@ -13,7 +13,6 @@ function hero() {
             <button class="hero-btn"><Link className="link" to="/viewcourse">View-Course</Link></button>
         </div>
           <img src={herobg} alt="herobg"/>
-        
       </div>
     );
   }

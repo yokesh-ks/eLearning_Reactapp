@@ -1,9 +1,9 @@
 import Navbar from './Components/navbar'
-import Home from './Home';
-import Login from './login.js';
-import Register from './register';
-import Viewcourse from "./viewcourse";
-import Create from './create';
+import Home from './Screens/Home';
+import Login from './Screens/login.js';
+import Register from './Screens/register';
+import Viewcourse from "./Screens/viewcourse";
+import Create from './Screens/create';
 import { BrowserRouter as Router, Switch, Route,} from 'react-router-dom';
 
 function App() {
